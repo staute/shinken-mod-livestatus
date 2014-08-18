@@ -1,5 +1,17 @@
-shinken-mod-livestatus (1.0.1-1) UNRELEASED; urgency=medium
+shinken-mod-livestatus (1.0.1-1) unstable; urgency=medium
 
   * New upstream version 1.0.1
+  * Change default module name
+  * Fix debian/install file
+  * Add logstore-sqlite as recommend
 
- -- Thibault Cohen <tcohen@tcohen-pc.mtl.sfl>  Mon, 18 Aug 2014 16:20:04 -0400
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Mon, 18 Aug 2014 16:20:04 -0400
+
+shinken-mod-livestatus (1.0-1) unstable; urgency=medium
+
+  * New upstream version 1.0
+  * Add replaces shinken-module-broker-livestatus
+  * Add custom config files
+  * Closes: #745458
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Sat, 26 Apr 2014 13:18:28 -0400
