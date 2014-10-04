@@ -1,3 +1,10 @@
+shinken-mod-livestatus (1.0.1-2) unstable; urgency=medium
+
+  * Fix Recommends: shinken-module-logstore-sqlite to
+    shinken-mod-logstore-sqlite
+
+ -- Mathieu Parent <sathieu@debian.org>  Sat, 04 Oct 2014 07:10:06 +0200
+
 shinken-mod-livestatus (1.0.1-1) unstable; urgency=medium
 
   [ Thibault Cohen ]
