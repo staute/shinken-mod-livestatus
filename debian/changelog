@@ -1,6 +1,7 @@
 shinken-mod-livestatus (1.1-1) unstable; urgency=medium
 
   * New upstream version 1.1
+  * Update Standards-Version to 3.9.6
 
  -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Thu, 23 Oct 2014 19:37:14 -0400
 
