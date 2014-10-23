@@ -1,0 +1,21 @@
+shinken-mod-livestatus (1.0.1-2) unstable; urgency=medium
+
+  * Fix Recommends: shinken-module-logstore-sqlite to
+    shinken-mod-logstore-sqlite
+
+ -- Mathieu Parent <sathieu@debian.org>  Sat, 04 Oct 2014 07:10:06 +0200
+
+shinken-mod-livestatus (1.0.1-1) unstable; urgency=medium
+
+  [ Thibault Cohen ]
+  * New upstream version 1.0.1
+  * Closes: #760226
+  * Change default module name
+  * Fix debian/install file
+  * Add logstore-sqlite as recommend
+  * Add replaces shinken-module-broker-livestatus
+  * Add custom config files
+  [ Mathieu Parent ]
+  * Architecture: all
+
+ -- Mathieu Parent <sathieu@debian.org>  Thu, 11 Sep 2014 22:06:33 +0200
