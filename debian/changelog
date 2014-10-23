@@ -1,3 +1,9 @@
+shinken-mod-livestatus (1.1-1) unstable; urgency=medium
+
+  * New upstream version 1.1
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Thu, 23 Oct 2014 19:37:14 -0400
+
 shinken-mod-livestatus (1.0.1-2) unstable; urgency=medium
 
   * Fix Recommends: shinken-module-logstore-sqlite to
