@@ -1,9 +1,11 @@
-shinken-mod-livestatus (1.1-1) unstable; urgency=medium
+shinken-mod-livestatus (1.1-1) experimental; urgency=medium
 
+  [ Thibault Cohen ]
   * New upstream version 1.1
+    - Fixes stability and performance problems (Closes: #767736)
   * Update Standards-Version to 3.9.6
 
- -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Thu, 23 Oct 2014 19:37:14 -0400
+ -- Mathieu Parent <sathieu@debian.org>  Sun, 02 Nov 2014 11:17:18 +0100
 
 shinken-mod-livestatus (1.0.1-2) unstable; urgency=medium
 
