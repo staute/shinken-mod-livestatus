@@ -127,7 +127,7 @@ def itersorted(self, hints=None):
 
 class LiveStatusRegenerator(Regenerator):
     def __init__(self, service_authorization_strict=False, group_authorization_strict=True):
-        super(self.__class__, self).__init__()
+        super(LiveStatusRegenerator, self).__init__()
         self.service_authorization_strict = service_authorization_strict
         self.group_authorization_strict = group_authorization_strict
 
@@ -136,7 +136,7 @@ class LiveStatusRegenerator(Regenerator):
 
         # We will relink all objects if need. If we are in a scheduler, this function will just bailout
         # because it's not need :)
-        super(self.__class__, self).all_done_linking(inst_id)
+        super(LiveStatusRegenerator, self).all_done_linking(inst_id)
 
         # now sort the item collections by name
         safe_print("SORTING HOSTS AND SERVICES")
