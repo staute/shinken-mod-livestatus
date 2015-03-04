@@ -1,3 +1,10 @@
+shinken-mod-livestatus (1.4-2) unstable; urgency=medium
+
+  [ Thibault Cohen ]
+  * Remove useless use of dh_python
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Wed, 04 Mar 2015 11:17:17 -0500
+
 shinken-mod-livestatus (1.4-1) unstable; urgency=medium
 
   [ Thibault Cohen ]
