@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for shinken-mod-syslog-sink
+# postinst script for shinken-mod-livestatus
 #
 # see: dh_installdeb(1)
 
