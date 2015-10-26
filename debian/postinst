@@ -19,6 +19,10 @@ set -e
 
 case "$1" in
     configure)
+        # Move old config files
+        if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then
+            dpkg-maintscript-helper mv_conffile /etc/shinken/shinken-specific/broker-livestatus.cfg /etc/shinken/modules/livestatus.cfg 1.4.2-1 shinken-module-broker-livestatus -- "$@"
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
