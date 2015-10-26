@@ -3,7 +3,7 @@ shinken-mod-livestatus (1.4.2-1) unstable; urgency=medium
   [ Sebastien Coavoux ]
   * New upstream version 1.4.2
 
- -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Wed, 11 Sep 2015 10:34:17 +0100
+ -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Mon, 26 Oct 2015 13:37:26 +0100
 
 shinken-mod-livestatus (1.4.1-1) unstable; urgency=medium
 
