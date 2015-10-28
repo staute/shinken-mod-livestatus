@@ -1,3 +1,17 @@
+shinken-mod-livestatus (1.4.2-1+PIC001) unstable; urgency=medium
+
+  * New upstream version
+    - https://github.com/shinken-monitoring/mod-livestatus.git
+    - Branch: master
+    - Commit: 52a81c6489ae2419e609324eabc6938a1902e3ca
+  * Re-add dh_python to build-depends
+  * Add recommends:
+    - shinken-mod-logstore-mongodb or
+    - shinken-mod-logstore-sqlite or
+    - shinken-mod-logstore-null
+
+ -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Wed, 28 Oct 2015 09:53:58 +0100
+
 shinken-mod-livestatus (1.4.2-1) unstable; urgency=medium
 
   [ Sebastien Coavoux ]
