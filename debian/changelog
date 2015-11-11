@@ -1,3 +1,11 @@
+shinken-mod-livestatus (1.4.2-1+PIC002) unstable; urgency=medium
+
+  * Livestatus-Mapping für display_name angepasst.
+    - Schreibt nun in Klammern den host_name hinter den display_name
+      falls der display_name und host_name sich unterscheiden.
+
+ -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Wed, 11 Nov 2015 17:41:28 +0100
+
 shinken-mod-livestatus (1.4.2-1+PIC001) unstable; urgency=medium
 
   * New upstream version
