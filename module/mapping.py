@@ -57,6 +57,11 @@ class Problem:
         self.source = source
         self.impacts = impacts
 
+# Added by Stefan Taute PLANET IC GmbH <taute@planet-ic.de>
+# used in display_name
+def if_else(condition, a, b) :
+   if condition : return a
+   else         : return b
 
 def modified_attributes_names(self):
     names_list = set()
@@ -313,7 +318,8 @@ livestatus_attribute_map = {
         },
         'display_name': {
             'description': 'Optional display name of the host - not used by Nagios\' web interface',
-            'function': lambda item, req: item.display_name,
+            # Changed by Stefan Taute PLANET IC GmbH <taute@planet-ic.de>
+            'function': lambda item, req: if_else(item.display_name != item.host_name,item.display_name+' ('+item.host_name+')',item.host_name),
         },
         'downtimes': {
             'description': 'A list of the ids of all scheduled downtimes of this host',
